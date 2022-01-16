@@ -1,1 +1,1 @@
-autocmd BufNewFile,BufRead *.po set filetype=portcullis
+autocmd BufNewFile,BufRead *.po setfiletype portcullis

@@ -1,1 +1,1 @@
-# Portcullis Colorscheme
+# Vim Portcullis Syntax
