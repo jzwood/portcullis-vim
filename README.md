@@ -1,6 +1,6 @@
 # Portcullis Vim Syntax Highlighting
 
-This Repo provides syntax rules for the [Portcullis language](https://github.com/jzwood/portcullis) and can be used with any vim colorscheme that has color/highlighting rules for common syntax groups (e.g. `Comment`, `Identifier`, `Operator`, etc).
+This repo provides syntax rules for the [Portcullis language](https://github.com/jzwood/portcullis) and can be used with any vim colorscheme that has highlighting rules for common syntax groups (e.g. `Comment`, `Identifier`, `Operator`, etc).
 
 ### Usage with Pathogen
 
