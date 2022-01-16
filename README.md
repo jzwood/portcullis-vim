@@ -17,4 +17,6 @@ bundle
         └── portcullis.vim
 ```
 
-Re-open or re-source your `portcullis` code and you're good to go.
+Re-open or re-source your `portcullis` code and you're good to go!
+
+<img src="portcullis-example.png" alt="">
