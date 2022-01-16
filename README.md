@@ -19,4 +19,4 @@ bundle
 
 Re-open or re-source your `portcullis` code and you're good to go!
 
-<img src="portcullis-example.png" alt="">
+<img src="portcullis-syntax.png" alt="portcullis highlighted syntax example">
