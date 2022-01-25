@@ -11,7 +11,6 @@ syntax match portcullisType "\v\{"
 syntax match portcullisType "\v\}"
 
 syntax match portcullisConditional "\v\?"
-syntax match portcullisConditional "\v\?\?"
 
 syntax match portcullisNumber "\v[0-9]\.?"
 
