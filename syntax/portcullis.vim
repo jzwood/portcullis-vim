@@ -1,3 +1,5 @@
+" https://learnvimscriptthehardway.stevelosh.com/chapters/44.html
+
 if exists("b:current_syntax")
     finish
 endif
@@ -16,10 +18,9 @@ syntax match portcullisNumber "\v[0-9]\.?"
 
 syntax match portcullisCharacter "\v\'.\'"
 
-syntax match portcullisOperator "\v\!"
-syntax match portcullisOperator "\v\!\!"
 syntax match portcullisOperator "\v\@1"
 syntax match portcullisOperator "\v\@2"
+syntax match portcullisOperator "\v\%"
 syntax match portcullisOperator "\v\*"
 syntax match portcullisOperator "\v\/"
 syntax match portcullisOperator "\v\+"
@@ -30,11 +31,10 @@ syntax match portcullisOperator "\v\<"
 syntax match portcullisOperator "\v\>\="
 syntax match portcullisOperator "\v\<\="
 syntax match portcullisOperator "\v\=\="
-syntax match portcullisOperator "\v_"
 
-syntax match portcullisIdentifier "\v[a-z][a-zA-Z0-9]*"
+syntax match portcullisIdentifier "\v[a-z_][a-zA-Z0-9]*"
 
-syntax match portcullisFunction "\v^[a-z][a-zA-Z0-9]*"
+syntax match portcullisFunction "\v^[a-z_][a-zA-Z0-9]*"
 
 syntax region portcullisComment start="#" end="#"
 
